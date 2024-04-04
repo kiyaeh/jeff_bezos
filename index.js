@@ -31,5 +31,5 @@ app.post("/payments/create", async (req, res) => {
 
 app.listen(8888, (err) => {
   if (err) throw err;
-  console.log("Amazon se rserver running on port 5000,https://localhost:8888");
+  console.log("Amazon server running on port 5000,https://localhost:8888");
 });
